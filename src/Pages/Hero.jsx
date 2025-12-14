@@ -28,7 +28,7 @@ const Hero = () => {
                         <p className='uppercase text-5xl md:text-7xl font-semibold'>redefining luxury & performance.</p>
                     </div>
                     <div className='flex py-10 items-end'>
-                        <div className='shrink-0 h-14 bg-white text-black rounded-4xl px-4 flex items-center justify-between w-56'>
+                        <div className='shrink-0 h-14 cursor-pointer bg-white text-black rounded-4xl px-4 flex items-center justify-between w-56'>
                             <p>Book for Test Drive</p>
                             <div className='w-9 h-9 rounded-full bg-black text-white flex items-center justify-center'>
                                 <i class="ri-arrow-right-line"></i>
