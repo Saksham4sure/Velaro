@@ -45,7 +45,23 @@ const SecondHero = () => {
             <div className='flex items-center justify-center'>
                 <img className='' src="https://images.pexels.com/photos/261985/pexels-photo-261985.jpeg?cs=srgb&dl=pexels-pixabay-261985.jpg&fm=jpg" alt="car" />
             </div>
-            <div className='flex flex-col pt-10 md:pt-0'>
+            <div className='items-center justify-center flex gap-4 w-full'>
+                <div className='w-1/3 md:w-32'>
+                    <p className='text-xs pb-2'>Top Speed</p>
+                    <p className='text-sm'>335 KM/H</p>
+                </div>
+                <div className='h-15 bg-white w-px rounded-full'></div>
+                <div className='w-1/3 md:w-32'>
+                    <p className='text-xs pb-2'>Power</p>
+                    <p className='text-sm' >771 bhp torque</p>
+                </div>
+                <div className='h-15 bg-white w-px rounded-full'></div>
+                <div className='w-1/3 md:w-32'>
+                    <p className='text-xs pb-2'>0-100 KM/H</p>
+                    <p className='text-sm' >3.2 seconds</p>
+                </div>
+            </div>
+            <div className='flex flex-col pt-20'>
                 <Title title="OUR ADVANTAGE" desc="Experience class-leading comfort, cutting-edge technology, and exceptional reliability with the Lexus ES. Designed to elevate every journey with confidence and style." />
                 <div className='flex flex-col md:flex-row'>
                     <div className='md:w-1/2 flex items-start justify-center flex-col pt-10 gap-5'>
