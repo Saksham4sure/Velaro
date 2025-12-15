@@ -66,9 +66,9 @@ const SecondHero = () => {
                 <div className='flex flex-col md:flex-row'>
                     <div className='md:w-1/2 flex items-start justify-center flex-col pt-10 gap-5'>
                         <div className='flex border rounded-3xl w-60 py-px px-px'>
-                            <h1 className='w-1/3 border rounded-3xl flex items-center justify-center bg-white text-black'>Engine</h1>
-                            <h1 className='w-1/3 rounded-3xl flex items-center justify-center'>Motor</h1>
-                            <h1 className='w-1/3 rounded-3xl flex items-center justify-center'>Battery</h1>
+                            <h1 className='cursor-default w-1/3 rounded-3xl flex items-center justify-center bg-white text-black'>Engine</h1>
+                            <h1 className='cursor-default w-1/3 rounded-3xl flex items-center justify-center'>Motor</h1>
+                            <h1 className='cursor-default w-1/3 rounded-3xl flex items-center justify-center'>Battery</h1>
                         </div>
                         <div className='md:pr-21 flex flex-col gap-5'>
                             <h1 className='text-3xl sm:text-5xl font-semibold'>REFINED ACCELERATION WITH INTELLIGENT CONTROL</h1>
